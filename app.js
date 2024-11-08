@@ -17,11 +17,15 @@ function quebrar() {
 }
 
 function onoff() {
-    if (chave === false) {
+    if (chave === false) { // se a chave estiver desligada, ligar a chave
         document.getElementById('interruptor').src = "img/swon.png"
         chave = true // o JS agora sabe que a chave está ligada
+        // acender a lâmpada
+        document.getElementById('lamp').src = "img/on.jpg"
     } else {
         document.getElementById('interruptor').src = "img/swoff.png"
         chave = false // o JS agora sabe que a chave está desligada
+        // desligar a lâmpada
+        document.getElementById('lamp').src = "img/off.jpg"
     }
 }
