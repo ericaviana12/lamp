@@ -2,7 +2,6 @@
  * Simples simulador de uma lâmpada
  * @author Erica Viana
  */ 
-// Comentário explicativo sobre o que o código faz. Autor é identificado. 
 
 // Variaveis de apoio lógico
 let chave = false // o interruptor inicia desligada
